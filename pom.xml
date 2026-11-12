@@ -110,7 +110,7 @@
                         </goals>
                         <configuration>
                             <excludes>
-                                <exclude>com/switchfully/switchfully30order/EurderApplication.class</exclude>
+                                <exclude>com/switchfully/questboard/QuestboardApplication.class</exclude>
                             </excludes>
                             <rules>
                                 <rule>
