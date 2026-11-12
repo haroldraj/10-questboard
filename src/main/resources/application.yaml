@@ -1,0 +1,31 @@
+spring:
+  application:
+    name : "questboard"
+
+  web:
+    error:
+      include-message: always
+
+  datasource:
+    url: ${url}
+    username: ${username}
+    password: ${password}
+  jackson:
+    constructor-detector: use_properties_based
+
+  flyway:
+    default-schema: ${schema}
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        default_schema: ${schema}
+
+springdoc:
+  swagger-ui:
+    path: "/swagger-ui.html"
+
+server:
+  port: 8080
